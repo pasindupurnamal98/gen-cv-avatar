@@ -133,3 +133,10 @@ __blobstorage__
 __queuestorage__
 __azurite_db*__.json
 .python_packages
+
+# Ignore Azure local config
+interactive/api/local.settings.json
+
+__pycache__/
+/venv/
+/.env
